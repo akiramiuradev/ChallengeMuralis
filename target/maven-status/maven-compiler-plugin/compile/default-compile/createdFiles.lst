@@ -1,0 +1,13 @@
+com\miura\challenge_muralis\exception\GlobalExceptionHandler.class
+com\miura\challenge_muralis\repository\ContatoRepository.class
+com\miura\challenge_muralis\dto\ClienteDTO.class
+com\miura\challenge_muralis\controller\ContatoController.class
+com\miura\challenge_muralis\dto\ContatoDTO.class
+com\miura\challenge_muralis\entity\Contato.class
+com\miura\challenge_muralis\repository\ClienteRepository.class
+com\miura\challenge_muralis\controller\ClienteController.class
+com\miura\challenge_muralis\ChallengeMuralisApplication.class
+com\miura\challenge_muralis\service\ContatoService.class
+com\miura\challenge_muralis\exception\ResourceNotFoundException.class
+com\miura\challenge_muralis\entity\Cliente.class
+com\miura\challenge_muralis\service\ClienteService.class

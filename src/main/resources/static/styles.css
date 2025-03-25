@@ -1,0 +1,124 @@
+/* Reset básico para remover margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir uma fonte legível */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8f8f8f;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container para dividir a página */
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Seção da esquerda (clientes) */
+.left-section {
+    width: 48%; /* Ocupa metade da largura */
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+/* Seção da direita (contatos) */
+.right-section {
+    width: 48%; /* Ocupa a outra metade */
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+/* Títulos principais */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilização para as listas */
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #8f8f8f;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #ff4c4c;
+}
+
+li button:hover {
+    background-color: #e03e3e;
+}
+
+button:focus {
+    outline: none;
+}
+
+.texto-cliente {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.button.editar-btn {
+    padding: 0px;
+}
